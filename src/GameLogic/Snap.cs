@@ -161,7 +161,7 @@ namespace CardGames.GameLogic
 				Snap s = new Snap();
 
 				Assert.IsTrue(s.CardsRemain);
-				Assert.IsNull (s.TopCard);
+				Assert.IsNull(s.TopCard);
 			}
 
 			[Test]
